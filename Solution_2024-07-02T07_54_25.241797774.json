@@ -1,0 +1,2040 @@
+{
+     "objectiveFunctions": [{"value": 54.198508547008544}],
+     "days": [
+          {
+               "date": "2024-02-05",
+               "id": 0,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [
+                              {
+                                   "referenceInternalId": "0114901",
+                                   "product": "ISOLA_MUESLI_FRUTAS_TROPICAL_1_KG",
+                                   "quantity": 1000,
+                                   "startingTime": 0,
+                                   "finishingTime": 1714,
+                                   "orderInternalId": "52201",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 2,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0115001",
+                                   "product": "ISOLA_MUESLI_CHOCOLATE_1_KG",
+                                   "quantity": 450,
+                                   "startingTime": 1894,
+                                   "finishingTime": 2665,
+                                   "orderInternalId": "52202",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 3,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0113601",
+                                   "product": "ISOLA_COPOS_DE_AVENA_1_KG",
+                                   "quantity": 3600,
+                                   "startingTime": 2845,
+                                   "finishingTime": 13645,
+                                   "orderInternalId": "52283",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 6,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0114201",
+                                   "product": "ISOLA_COPOS_DE_CEBADA_1_KG",
+                                   "quantity": 240,
+                                   "startingTime": 13825,
+                                   "finishingTime": 14545,
+                                   "orderInternalId": "52284",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 7,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0113301",
+                                   "product": "ISOLA_SEMILLAS_AMAPOLA_1_KG",
+                                   "quantity": 120,
+                                   "startingTime": 14725,
+                                   "finishingTime": 15625,
+                                   "orderInternalId": "52286",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 8,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0114901",
+                                   "product": "ISOLA_MUESLI_FRUTAS_TROPICAL_1_KG",
+                                   "quantity": 1000,
+                                   "startingTime": 15805,
+                                   "finishingTime": 17519,
+                                   "orderInternalId": "52334",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 15,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0115001",
+                                   "product": "ISOLA_MUESLI_CHOCOLATE_1_KG",
+                                   "quantity": 550,
+                                   "startingTime": 17699,
+                                   "finishingTime": 18641,
+                                   "orderInternalId": "52335",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 16,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0114801",
+                                   "product": "ISOLA_MUESLI_CEREALES_1_KG",
+                                   "quantity": 500,
+                                   "startingTime": 18821,
+                                   "finishingTime": 19678,
+                                   "orderInternalId": "52337",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 17,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "1204302",
+                                   "product": "SPAR_CACAHUETE_C._TOSTADO_400_G",
+                                   "quantity": 1200,
+                                   "startingTime": 20458,
+                                   "finishingTime": 23338,
+                                   "orderInternalId": "52318",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 13,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 4,
+                                        "value": "TOSTADO"
+                                   }
+                              }
+                         ],
+                         "id": 1,
+                         "time": 23338,
+                         "metrics": {
+                              "absoluteTimeOrders": 21298,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0.9101709401709401,
+                              "quantity": 8660,
+                              "productivity": 0.9101709401709401,
+                              "absoluteTimeContextSwitch": 2040,
+                              "percentageRemainingTime": 0.00264957264957265,
+                              "absoluteRemainingTime": 62,
+                              "percentageTimeContextSwitch": 0.08717948717948718,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [
+                              {
+                                   "referenceInternalId": "0106802",
+                                   "product": "ISOLA_PISTACHOS_TOSTADOS_SALADOS_175_G",
+                                   "quantity": 2520,
+                                   "startingTime": 0,
+                                   "finishingTime": 3978,
+                                   "orderInternalId": "52328",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 14,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 4,
+                                        "value": "TOSTADO"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "1208702",
+                                   "product": "SPAR_COCKTAIL_DULCE_200_G",
+                                   "quantity": 2520,
+                                   "startingTime": 4758,
+                                   "finishingTime": 8358,
+                                   "orderInternalId": "52314",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 9,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 2,
+                                        "value": "DESHIDRATADO"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "1200402",
+                                   "product": "SPAR_ALMENDRAS_NATURALES_200_G",
+                                   "quantity": 3360,
+                                   "startingTime": 8718,
+                                   "finishingTime": 13197,
+                                   "orderInternalId": "52315",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 10,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "1206501",
+                                   "product": "SPAR_PIPA_GIRASOL_MONDADA_FRITA_200_G",
+                                   "quantity": 840,
+                                   "startingTime": 13557,
+                                   "finishingTime": 14817,
+                                   "orderInternalId": "52317",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 12,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 3,
+                                        "value": "FRITO"
+                                   }
+                              }
+                         ],
+                         "id": 3,
+                         "time": 14817,
+                         "metrics": {
+                              "absoluteTimeOrders": 13317,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0.5691025641025641,
+                              "quantity": 9240,
+                              "productivity": 0.5691025641025641,
+                              "absoluteTimeContextSwitch": 1500,
+                              "percentageRemainingTime": 0.3667948717948718,
+                              "absoluteRemainingTime": 8583,
+                              "percentageTimeContextSwitch": 0.0641025641025641,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [
+                              {
+                                   "referenceInternalId": "0114801",
+                                   "product": "ISOLA_MUESLI_CEREALES_1_KG",
+                                   "quantity": 450,
+                                   "startingTime": 0,
+                                   "finishingTime": 771,
+                                   "orderInternalId": "52200",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 1,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0113401",
+                                   "product": "ISOLA_SEMILLAS_DE_LINO_1_KG",
+                                   "quantity": 720,
+                                   "startingTime": 951,
+                                   "finishingTime": 6351,
+                                   "orderInternalId": "52281",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 4,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0113501",
+                                   "product": "ISOLA_SEMILLAS_DE_SESAMO_BLANCO_1_KG",
+                                   "quantity": 1020,
+                                   "startingTime": 6531,
+                                   "finishingTime": 14181,
+                                   "orderInternalId": "52282",
+                                   "packageFormat": {
+                                        "id": 410,
+                                        "value": "W410"
+                                   },
+                                   "id": 5,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 1,
+                                   "productType": {
+                                        "id": 1,
+                                        "value": "NATURAL"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "1202501",
+                                   "product": "SPAR_COCKTAIL_SALADO_200_G",
+                                   "quantity": 1680,
+                                   "startingTime": 15561,
+                                   "finishingTime": 18081,
+                                   "orderInternalId": "52316",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 11,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 3,
+                                        "value": "FRITO"
+                                   }
+                              },
+                              {
+                                   "referenceInternalId": "0102002",
+                                   "product": "ISOLA_CIRUELAS_PASAS_SIN_SEMILLA_250_G",
+                                   "quantity": 840,
+                                   "startingTime": 18881,
+                                   "finishingTime": 20456,
+                                   "orderInternalId": "52142",
+                                   "packageFormat": {
+                                        "id": 290,
+                                        "value": "W290"
+                                   },
+                                   "id": 0,
+                                   "type": {
+                                        "id": 1,
+                                        "value": "ENVASADO_AUTOMATICO"
+                                   },
+                                   "minimumAvailableStaff": 0,
+                                   "requiredStaff": 2,
+                                   "productType": {
+                                        "id": 2,
+                                        "value": "DESHIDRATADO"
+                                   }
+                              }
+                         ],
+                         "id": 5,
+                         "time": 20456,
+                         "metrics": {
+                              "absoluteTimeOrders": 17916,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0.7656410256410257,
+                              "quantity": 4710,
+                              "productivity": 0.7656410256410257,
+                              "absoluteTimeContextSwitch": 2540,
+                              "percentageRemainingTime": 0.12581196581196583,
+                              "absoluteRemainingTime": 2944,
+                              "percentageTimeContextSwitch": 0.10854700854700855,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-06",
+               "id": 1,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-07",
+               "id": 2,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-08",
+               "id": 3,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-09",
+               "id": 4,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-12",
+               "id": 5,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-13",
+               "id": 6,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-14",
+               "id": 7,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-15",
+               "id": 8,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          },
+          {
+               "date": "2024-02-16",
+               "id": 9,
+               "lines": [
+                    {
+                         "orders": [],
+                         "id": 0,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 1,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 2,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 3,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 4,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 5,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 6,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 7,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    },
+                    {
+                         "orders": [],
+                         "id": 8,
+                         "time": 0,
+                         "metrics": {
+                              "absoluteTimeOrders": 0,
+                              "percentageTimeIdle": 0,
+                              "percentageTimeOrders": 0,
+                              "quantity": 0,
+                              "productivity": 0,
+                              "absoluteTimeContextSwitch": 0,
+                              "percentageRemainingTime": 1,
+                              "absoluteRemainingTime": 23400,
+                              "percentageTimeContextSwitch": 0,
+                              "absoluteTimeIdle": 0
+                         }
+                    }
+               ]
+          }
+     ],
+     "metrics": {
+          "absoluteTimeOrders": 52531,
+          "quantity": 22610,
+          "solutionTime": 63,
+          "percentageRemainingTime": 0.9721695156695157,
+          "absoluteRemainingTime": 2047389,
+          "percentageTimeContextSwitch": 0.0028869895536562202,
+          "absoluteTimeIdle": 0,
+          "feasabilityMetrics": {
+               "overlappingNumber": 0,
+               "incorrectFirstNumber": 0,
+               "overlapping": [],
+               "incorrectFirst": [],
+               "incompatibleLine": [],
+               "incorrectDaysNumber": 0,
+               "excessLineTime": [],
+               "incompatibleLineNumber": 0,
+               "excessLineTimeNumber": 0,
+               "incorrectDays": []
+          },
+          "percentageTimeIdle": 0,
+          "percentageTimeOrders": 0.02494349477682811,
+          "productivity": 54.198508547008544,
+          "days": 10,
+          "absoluteTimeContextSwitch": 6080,
+          "orders": 18,
+          "lines": 9
+     }
+}
