@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+from datetime import datetime
 
 # Cargar el archivo JSON de Instance
 with open('Instance_1719906800091.json', 'r') as f:
@@ -17,6 +18,7 @@ df_references.rename(columns={'id': 'ID_Reference', 'product': 'Product Name'}, 
 # Guardar en Excel
 df_references.to_excel('References.xlsx', index=False)
 
+# Tabla Orders
 
 # Crear diccionario para mapear IDs a referencias desde el primer JSON
 reference_mapping = {order['id']: order['reference'] for order in instance_date['orders']}
@@ -25,8 +27,10 @@ orders_data = []
 
 # Iterar sobre los días en el archivo de solución
 for day in solution_data['days']:
-    date = day['date'] + " 08:00:00"  # Obtener la fecha del día actual
-    
+    # Parsear la fecha
+    parsed_date = datetime.strptime(day['date'], '%Y-%m-%d')
+    # Dar formato a la fecha como M/D/YYYY 8:00:00 AM
+    formatted_date = f"{parsed_date.month}/{parsed_date.day}/{parsed_date.year} 8:00:00 AM"    
     # Iterar sobre las máquinas (lines) en el día actual
     for line in day['lines']:
         # Asignar un número de secuencia a cada orden procesada en esta máquina
@@ -37,7 +41,7 @@ for day in solution_data['days']:
             # Agregar la información a la lista
             orders_data.append({
                 'ID': order_id,
-                'Date': date,
+                'Date': formatted_date,
                 'Creation Sequence (Seconds)': creation_sequence + 1,
                 'Reference': reference_id
             })
@@ -85,12 +89,22 @@ for line in day_0['lines']:
             'Sequence': sequence,
             'ID_ORDER': order_id,
             'Process Time (Seconds)': process_time,
-            'Required Staff': required_staff
+            'Required Staff': required_staff,
+            'IsSink': 0 # Indicador para mantener a las entradas de sequencia por encima de las de Sink
+        })
+
+        # Añador la fila adicional para el sink "Input@Sink1"
+        sequence_data.append({
+            'Sequence': "Input@Sink1",
+            'ID_ORDER': order_id,
+            'Process Time (Seconds)': 0,
+            'Required Staff': 0,
+            'IsSink': 1 # Indicador para mantener al Sink por debajo de su entrada de sequencia
         })
 
 # Convertir a DataFrame, ordenar y guardar en Excel
 df_sequence = pd.DataFrame(sequence_data)
-df_sequence = df_sequence.sort_values(by='ID_ORDER')  # Ordenar por ID_ORDER en orden ascendente
+df_sequence = df_sequence.sort_values(by=['ID_ORDER', 'IsSink']).drop(columns='IsSink')  # Sort and remove IsSink column
 df_sequence.to_excel('Sequence Table.xlsx', index=False)
 
 # Extraer datos para la tabla Setup Times desde 'lines'
@@ -99,6 +113,7 @@ if machines:
     for machine in machines:
         for setup in machine.get('setups', []):  # 'setups' asume que existe esta lista
             setup_times_data.append({
+                'Machine': f"{machine.get('type', {}).get('value')}_M{machine.get('id')}",
                 'From Value': setup.get('sourceId'),  # ID de la referencia (producto) desde
                 'To Value': setup.get('targetId'),  # ID de la referencia (producto) de destino
                 'SetupTimes (Seconds)': setup.get('time')
